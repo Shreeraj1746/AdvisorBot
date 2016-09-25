@@ -1,0 +1,19 @@
+{
+  "name": "advisor_bot",
+  "version": "0.0.1",
+  "description": "Slack bot skeleton",
+  "main": "advisor_bot.js",
+  "scripts": {
+    "start": "node advisor_bot.js"
+  },
+  "author": "Shreeraj Dabholkar",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "botkit-middleware-witai": "0.0.2",
+    "redis": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
