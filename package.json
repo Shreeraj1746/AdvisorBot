@@ -10,10 +10,14 @@
   "license": "MIT",
   "dependencies": {
     "botkit": "^0.2.2",
-    "botkit-middleware-witai": "0.0.2",
+    "botkit-middleware-witai": "^0.0.2",
     "redis": "*"
   },
   "engines": {
     "node": "*"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "github.com/Shreeraj1746/AdvisorBot.git"
+}
 }

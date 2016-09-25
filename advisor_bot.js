@@ -98,10 +98,16 @@ controller.hears(['hello'], 'direct_message', wit.hears, function(bot, message) 
 });
 
 // end conversation
-controller.hears(['goodbye'],'direct_message', wit.hears, function(bot,message) {
+// controller.hears(['goodbye'],'direct_message', wit.hears, function(bot,message) {
+//   bot.reply(message,'Goodbye');
+//   bot.rtm.close();
+// });
+
+controller.hears(['goodbye'],'direct_message', function(bot,message) {
   bot.reply(message,'Goodbye');
   bot.rtm.close();
 });
+
 
 // begin a conversation
 controller.hears(['question'], 'direct_message', wit.hears, function(bot, message) {
