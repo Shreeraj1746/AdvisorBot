@@ -38,3 +38,6 @@ jspm_packages
 
 # Environment
 env.js
+
+# Data
+db_advisor_bot/
