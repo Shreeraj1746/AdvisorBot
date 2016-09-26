@@ -41,3 +41,6 @@ env.js
 
 # Data
 db_advisor_bot/
+
+# OS X
+*.DS_Store
